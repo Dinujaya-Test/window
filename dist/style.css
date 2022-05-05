@@ -1,0 +1,149 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 300;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(1.875rem, 8vw, 5rem);
+}
+
+h2 {
+  font-size: clamp(1.40625rem, 6vw, 3.75rem);
+}
+
+h3 {
+  font-size: clamp(1.171875rem, 5vw, 3.125rem);
+}
+
+h4 {
+  font-size: clamp(0.703125rem, 3vw, 1.875rem);
+}
+
+x h5 {
+  font-size: clamp(0.5859375rem, 2vw, 1.5625rem);
+}
+
+h6 {
+  font-size: clamp(0.625rem, 2vw, 1.25rem);
+}
+
+p {
+  font-size: clamp(0.625rem, 2vw, 1.25rem);
+}
+
+p {
+  margin: 0;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #6F36FF;
+  position: relative;
+  overflow: hidden;
+  /* Hide scrollbars */
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #6F36FF;
+}
+
+::selection {
+  color: #fff;
+  background: #6F36FF;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 450px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.06);
+}
+
+.wrapper header {
+  font-size: 23px;
+  font-weight: 500;
+  padding: 17px 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.wrapper header.active {
+  cursor: move;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.wrapper .content {
+  display: flex;
+  padding: 30px 30px 40px 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content .icon {
+  height: 95px;
+  width: 95px;
+  border-radius: 50%;
+  border: 5px solid #6F36FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .icon i {
+  color: #6F36FF;
+  font-size: 60px;
+}
+
+.content .title {
+  margin: 15px 0;
+  font-size: 29px;
+  font-weight: 500;
+}
+
+.content p {
+  font-size: 16px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
